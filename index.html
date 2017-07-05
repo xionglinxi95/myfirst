@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 
+	 -->
+	 <script type="text/javascript">
+	 	function foo(obj){
+	 		obj.name = 'tom';
+	 		obj = new Object();
+	 		obj.name = 'jerry';
+	 	}
+	 	var o  = new Object() ;
+	 	foo(o);
+	 	console.log(o.name);
+	 </script>
+</body>
+</html>
